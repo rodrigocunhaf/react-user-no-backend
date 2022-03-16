@@ -1,0 +1,35 @@
+.block {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px 0 2px 0;
+    margin: 2px 0 2px 0;
+
+}
+
+.fontLabel {
+    font-weight: bold;
+    font-size: 20px;
+    max-height: 63px;
+    text-transform: capitalize;
+}
+
+.fontInput {
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    outline: 0;
+}
+
+.fontInput:focus{
+    border: 0; 
+    box-shadow: 0px 0px 3px 1px black;
+}
+
+.fontInputAge {
+    min-width:60px;
+    max-width:60px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}

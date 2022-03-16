@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-image: url("../../../public/images/backgrounds/background-image.png");
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #950095 #c0c0c0;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c0c0c0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #950095;
+  border-radius: 0px;
+  border: 1px none #c0c0c0;
+}

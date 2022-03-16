@@ -1,0 +1,12 @@
+.user {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid rgb(110, 107, 107);
+    text-transform: capitalize;
+    min-height: 39px;
+    max-height: 39px;
+    display: flex;
+    align-items: center;
+
+}

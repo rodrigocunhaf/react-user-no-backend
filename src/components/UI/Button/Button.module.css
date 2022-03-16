@@ -1,0 +1,25 @@
+.background {
+    background-color: blueviolet;
+    min-width: 200px;
+    min-height: 50px;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.background:hover{
+    background-color:rgb(161, 120, 199) ;
+    transition-duration: 425ms;
+    color: rgb(66, 65, 65)
+}
+
+.boxButton {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.interface{
+    max-width: 590px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: #f3f3f3;
+}
+
+.list{
+    height: 527px;
+    overflow-y: scroll;
+}
+
+
+
+
